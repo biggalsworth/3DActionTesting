@@ -1,0 +1,34 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "PlayerAttack",
+            "id": "ecbc57d6-7536-408d-9739-98eef14795fd",
+            "actions": [
+                {
+                    "name": "Basic Attack",
+                    "type": "Value",
+                    "id": "66e34b4e-4c57-4371-8f87-bb7631798e31",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8834744a-8d1b-4997-b3ac-3cca3fe7df56",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Basic Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
